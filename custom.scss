@@ -1,0 +1,13 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import url(https://fonts.googleapis.com/css?family=Literata&display=swap);
+
+// colors
+$body-bg: #eaf9f5 !default;
+
+/*-- scss:rules --*/
+
+a:hover {
+  background-color: #fffcf1;
+}
