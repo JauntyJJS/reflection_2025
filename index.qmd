@@ -1,7 +1,7 @@
 ---
 title: My 2025 Year-In-Review
 author: Jeremy Selva [`r fontawesome::fa(name = "linkedin", fill = "#0077ac")`](https://www.linkedin.com/in/jeremy-selva-085b9112a/){target="_blank"} <br> @JauntyJJS [`r fontawesome::fa(name = "github", fill = "#000000")`](https://github.com/JauntyJJS){target="_blank"} [`r fontawesome::fa(name = "fab fa-square-x-twitter", fill = "#000000")`](https://twitter.com/JauntyJJS){target="_blank"} [`r fontawesome::fa(name = "bluesky", fill = "#1084ff")`](https://bsky.app/profile/jauntyjjs.bsky.social){target="_blank"} [`r fontawesome::fa(name = "mastodon", fill = "#5f53e7")`](https://fosstodon.org/@JauntyJJS){target="_blank"} <br> <https://jeremy-selva.netlify.app/>{target="_blank"}
-date: 2025-12-31
+date: 2025-12-30
 date-format: "D[<sup style='font-size:65%;font-style:italic;'>th</sup>] MMMM YYYY"
 format: 
   closeread-html:
