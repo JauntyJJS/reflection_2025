@@ -54,6 +54,9 @@ library(reactable)
 out_type <- knitr::opts_chunk$get("rmarkdown.pandoc.to")
 ```
 
+![A notebook with a pink pen near flowers from [Travel Adventures](https://stocksnap.io/author/traveladventures){target="_blank"} on
+[StockSnap.io](https://stocksnap.io/photo/flatlay-flowers-EX2VLYWQFE){target="_blank"} under [CC0 licence](https://creativecommons.org/publicdomain/zero/1.0/){target="_blank"}](reflection.jpg){fig-alt="A notebook with a pink pen near flowers." fig-align="center" width="70%"}
+
 <a name="top"></a>
 
 ## Table of Content
