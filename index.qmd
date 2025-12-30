@@ -46,6 +46,7 @@ library(rmarkdown)
 library(fs)
 library(dplyr)
 library(quarto)
+library(litedown)
 library(tinytable)
 library(sessioninfo)
 library(reactable)
@@ -71,7 +72,7 @@ out_type <- knitr::opts_chunk$get("rmarkdown.pandoc.to")
 ::: cr-section
 ## Introduction
 
-2025 has been a year of many small progress and firsts (step into the unknown) for me. First package submission to CRAN. First time attending [R Dev Day](https://contributor.r-project.org/events/r-dev-days/){target="_blank"}. First submission to the [Posit Table Contest](https://posit.co/blog/announcing-the-2025-table-and-plotnine-contests/){target="_blank"}.<br><br>As the year comes to an end, it is time to acknowledge and celebrate these little achievements and milestones in my life.<br><br><a href="#top">Back
+2025 has been a year of many small progress and firsts for me. First package submission to [CRAN](https://cran.r-project.org/){target="_blank"}. First time attending [R Dev Day](https://contributor.r-project.org/events/r-dev-days/){target="_blank"}. First submission to the [Posit Table Contest](https://posit.co/blog/announcing-the-2025-table-and-plotnine-contests/){target="_blank"}.<br><br>As the year comes to an end, it is time to acknowledge and celebrate these little achievements and milestones in my life.<br><br><a href="#top">Back
 to top</a> @cr-introduction
 
 ::: {#cr-introduction .scale-to-fill}
@@ -84,9 +85,9 @@ to top</a> @cr-introduction
 ::: cr-section
 ## R package pretestcad
 
-Since I joined National Heart Centre Singapore a few years ago, I have been working on an R package that consolidates different pretest probability scores for coronary artery disease into one library.<br><br>This R package is subsequently known as [`pretestcad`](https://jauntyjjs.github.io/pretestcad/){target="_blank"}.<br><br>This year, I have managed to make this R package publicly available on [CRAN](https://cran.r-project.org/web/packages/pretestcad/index.html){target="_blank"} and [RUniverse](https://jauntyjjs.r-universe.dev/pretestcad){target="_blank"}. @cr-pretestcad-cran
+Since I joined National Heart Centre Singapore a few years ago, I had been working on an R package that consolidates different pretest probability scores for coronary artery disease into one library.<br><br>This R package is subsequently known as [`pretestcad`](https://jauntyjjs.github.io/pretestcad/){target="_blank"}.<br><br>This year, I managed to make this R package publicly [available on CRAN](https://cran.r-project.org/web/packages/pretestcad/index.html){target="_blank"} and [RUniverse](https://jauntyjjs.r-universe.dev/pretestcad){target="_blank"}. @cr-pretestcad-cran
 
-I am also given a chance to present this R package in various conferences such as [R/Medicine](https://www.youtube.com/watch?v=5hpTlmKvRU8){target="_blank"} and [R/Pharma](https://www.youtube.com/watch?v=008bBfihSwM){target="_blank"} and give out some hex stickers during the [useR! 2025](https://www.youtube.com/watch?v=Jw9AqrhA2lM){target="_blank"} conference.<br><br>![](images/pretestcad_stickers.jpg){fig-alt="R package pretestcad hex stickers." fig-align="center" width="80%"}<br><br><a href="#top">Back
+I was also given a chance to present this R package in various conferences such as [R/Medicine](https://www.youtube.com/watch?v=5hpTlmKvRU8){target="_blank"} and [R/Pharma](https://www.youtube.com/watch?v=008bBfihSwM){target="_blank"} and gave out some hex stickers during the [useR! 2025](https://www.youtube.com/watch?v=Jw9AqrhA2lM){target="_blank"} conference.<br><br>![](images/pretestcad_stickers.jpg){fig-alt="R package pretestcad hex stickers." fig-align="center" width="80%"}<br><br><a href="#top">Back
 to top</a> @cr-userR-2025-pretestcad
 
 ::: {#cr-pretestcad-cran .scale-to-fill}
@@ -104,7 +105,7 @@ to top</a> @cr-userR-2025-pretestcad
 
 :::{focus-on="cr-rugs-meeting"}
 
-Despite having limited resources, [Nien Xiang](https://sg.linkedin.com/in/nien-xiang-tou-phd-a15594184){target="_blank"} and I were able to organise another R User Group meeting with three amazing talks this year.<br><br>
+Despite having limited resources, [Nien Xiang](https://sg.linkedin.com/in/nien-xiang-tou-phd-a15594184){target="_blank"} and I were able to organise another R User Group meeting with three amazing talks.<br><br>
 
 -  [Practical Tips to Guide Your Colleagues from Closed Source to Open Source](https://bit.ly/250521-rugs-br){target="_blank"} by Bella Ratmelia.
 -  [Integrating Quarto into Teaching Practices](https://rgroup-quarto.netlify.app/){target="_blank"} by Gerard Chung.
@@ -124,9 +125,9 @@ to top</a>
 ::: cr-section
 ## End of Reservist Cycle
 
-It has been close to around nine years since I have started my reservist with 6th Signals Battalion. Time really flies and this year is my last training in my reservist cycle. <br><br>Here is a picture of me together with my officer and those who have finished their reservist cycle in my node (N67) with me. @cr-mr-picture 
+It was close to around nine years since I had started my reservist duty with 6th Signals Battalion. Time really flies and this year marks my last training in my reservist cycle. <br><br>Here is a picture of me together with my officer and those who have completed their reservist cycle in my node (N67) with me. @cr-mr-picture 
 
-Every reservist training, I try to make an effort to give those at their last reservist training a small gift (sponsored by my officer) and a farewell card containing messages written by each member of the group.<br><br>This time, I have decided to make these farewell cards by myself and give them my best wishes to them. Here is a picture of some farewell cards that I have made for everyone in my node (N67).<br><br>I will definitely miss the people that I have met for the past few years and I wish them well in their future endeavours.<br><br><a href="#top">Back
+Every reservist training, I try to make an effort to give those at their last reservist training a small gift (sponsored by my officer) and a farewell card containing messages written by each member of the group.<br><br>This time, I have decided to make these farewell cards by myself and give them my best wishes to them. Here is a picture of some farewell cards that I have made for everyone in my node (N67).<br><br>I will definitely miss the people that I have met over the past few years and I wish them well in their future endeavours.<br><br><a href="#top">Back
 to top</a> @cr-mr-cards
 
 ::: {#cr-mr-picture .scale-to-fill}
@@ -145,18 +146,18 @@ to top</a> @cr-mr-cards
 2025 marks the 60th anniversary of Singapore's independence.<br><br>
 Unfortunately, I had to miss its celebration on 9 August 2025 to attend the [useR! 2025
 conference](https://user2025.r-project.org/){target="_blank"}
-at Duke University, Durham, North Carolina, United States of America instead. @cr-sg-60
+at Duke University, Durham, North Carolina, United States of America, instead. @cr-sg-60
 
-During the conference, I have presented some tips on how to do clinical data harmonisation and create various reports/documentation showing how the harmonisation is done in an automated way.<br><br>`r fontawesome::fa(name = "link", fill = "#808080")` [Slides](https://jauntyjjs.github.io/useR-2025_harmonisation){target="_blank"}<br>`r fontawesome::fa(name = "github", fill = "#000000")` [Source Code](https://github.com/JauntyJJS/useR-2025_harmonisation){target="_blank"} @cr-useR2025-present
+During the conference, I presented some tips on how to do clinical data harmonisation and create various reports/documentation showing how the harmonisation is done in an automated way.<br><br>`r fontawesome::fa(name = "link", fill = "#808080")` [Slides](https://jauntyjjs.github.io/useR-2025_harmonisation){target="_blank"}<br>`r fontawesome::fa(name = "github", fill = "#000000")` [Source Code](https://github.com/JauntyJJS/useR-2025_harmonisation){target="_blank"} @cr-useR2025-present
 
-Despite missing the celebration back home, I find great joy during my trip in Durham. @cr-useR2025-hex-stickers
+Despite missing the celebration back home, I found great joy during my trip in Durham. @cr-useR2025-hex-stickers
 
-I managed to catching up with people that I had met in useR! 2024 and making new connections along the way. @cr-useR2025-luis
+I managed to catch up with people that I had met in useR! 2024 and made new connections along the way. @cr-useR2025-luis
 
 The conference and the R community also provided nice goodies to make the event more memorable. @cr-useR2025-goodies
 
-Luck was also on my side as I have won, during a lucky draw,
-a book signed by [Jennifer Bryan](https://jennybryan.org/){target="_blank"}, one of the authors.<br><br><a href="#top">Back
+Luck was also on my side as I have won
+a book signed by [Jennifer Bryan](https://jennybryan.org/){target="_blank"}, one of the authors, during a lucky draw,.<br><br><a href="#top">Back
 to top</a> @cr-useR2025-book
 
 ::: {#cr-sg-60 .scale-to-fill}
@@ -188,9 +189,9 @@ to top</a> @cr-useR2025-book
 ::: cr-section
 ## R Dev Day after useR! 2025
 
-During the [R Dev Day](https://contributor.r-project.org/events/r-dev-days/){target="_blank"} session after the useR! 2025 conference, I was placed in a group with [Shannon](https://www.pipinghotdata.com/){target="_blank"} and [Eliot](https://www.linkedin.com/in/eliot-dixon-a36b22188/) to create some test (rotated and oriented) images that facilitates a [bug report](https://bugs.r-project.org/show_bug.cgi?id=17148){target="_blank"} showing some unexpected image outputs when the R function [`rasterImage`](https://search.r-project.org/R/refmans/graphics/html/rasterImage.html){target="_blank"} was used to display on various devices (Cario, Quartz, Xlib and windows). @cr-r-dev-day-square
+During the [R Dev Day](https://contributor.r-project.org/events/r-dev-days/){target="_blank"} session after the useR! 2025 conference, I was placed in a group with [Shannon](https://www.pipinghotdata.com/){target="_blank"} and [Eliot](https://www.linkedin.com/in/eliot-dixon-a36b22188/) to create some test (rotated and oriented) images that facilitate a [bug report](https://bugs.r-project.org/show_bug.cgi?id=17148){target="_blank"} showing some unexpected image outputs when the R function [`rasterImage`](https://search.r-project.org/R/refmans/graphics/html/rasterImage.html){target="_blank"} was used to display on various devices (Cario, Quartz, Xlib and windows). @cr-r-dev-day-square
 
-Initially, I thought we won't be contributing much as Eliot and I are first timers in this event. Nevertheless, we managed to produce the requested images and relevant outputs in this [Github issue](https://github.com/r-devel/r-dev-day/issues/75){target="_blank"}.<br><br> I actually had a lot of fun trying to make these images in base R.<br><br><a href="#top">Back
+Initially, I thought we wouldn't be contributing much as Eliot and I were first timers in this event. Nevertheless, we managed to produce the requested images and relevant outputs in this [GitHub issue](https://github.com/r-devel/r-dev-day/issues/75){target="_blank"}.<br><br> I actually had a lot of fun trying to make these images in base R.<br><br><a href="#top">Back
 to top</a> @cr-r-dev-day-f
 
 ::: {#cr-r-dev-day-square .scale-to-fill}
@@ -233,7 +234,7 @@ to top</a> @cr-hat-2025-incubator-team
 
 :::{focus-on="cr-posit-table-submission"}
 
-This year, I have made my first [table submission](https://jauntyjjs.github.io/2025_table/){target="_blank"} to the [Posit Table Contest](https://posit.co/blog/announcing-the-2025-table-and-plotnine-contests/){target="_blank"}. The table tries to promote some Singapore places of interest while showing the number of visits during the past few years. @cr-posit-table-submission
+I also made my first [table submission](https://jauntyjjs.github.io/2025_table/){target="_blank"} to the [Posit Table Contest](https://posit.co/blog/announcing-the-2025-table-and-plotnine-contests/){target="_blank"}. The table tries to promote some Singapore places of interest while showing the number of visits during the past few years. @cr-posit-table-submission
 
 To my surprise, the table received a [runners up](https://posit.co/blog/2025-table-contest-winners/){target="_blank"} position with the following comments.<br><br>
 
@@ -241,7 +242,7 @@ To my surprise, the table received a [runners up](https://posit.co/blog/2025-tab
 
 :::
 
-and I have received a nice prizes from Posit @cr-posit-table-prizes
+As such, I received some nice prizes from Posit, @cr-posit-table-prizes
 
 including some hex stickers.<br><br><a href="#top">Back
 to top</a> @cr-posit-table-stickers
@@ -265,17 +266,17 @@ to top</a> @cr-posit-table-stickers
 
 :::{focus-on="cr-fear"}
 
-I have to admit that these firsts were scary and I did have many self doubts.<br><br>
+I had to admit that these firsts were scary and I did have many self doubts.<br><br>
 
 ![Output from [M365 Copilot](https://gemini.google.com/){target="_blank"} using prompt "Create a blackboard with the abbreviation saying FEAR: False Evidence Appearing Real."](images/fear.png){fig-alt="Blackboard with the abbreviation saying FEAR: False Evidence Appearing Real." fig-align="center"width="80%"}
 
 :::
 
-However, based on my [reflections last year](https://jauntyjjs.github.io/reflection_2024/){target="_blank"}, I am reminded that there are people out there who are interested in the work that I do, will appreciate my talents and accept my shortcoming. @cr-self-love
+However, based on my [reflections last year](https://jauntyjjs.github.io/reflection_2024/){target="_blank"}, I was reminded that there are people out there who would be interested in the work that I do, appreciate my talents and accept my shortcoming. @cr-self-love
 
-I begin to realise that these firsts are actually opportunities given by God for me to improve myself by having more self love and courage to get up of my comfort zone.<br><br>As I took the leap of faith and try something different or new, I realise that things are not as bad as I thought and I end up benefiting myself and others more instead (based on my achievements this year). @cr-opportunities
+I began to realise that these firsts were actually opportunities given by God for me to improve myself by having more self love and courage to get up of my comfort zone.<br><br>As I took the leap of faith and tried something different or new, I realised that things were not as bad as I thought and I ended up benefiting myself and others more instead (based on my achievements this year). @cr-opportunities
 
-Opportunities are always around but it can also be easily be seen as obstacles.<br><br>As fallible humans, it is normal to be fearful sometimes to push beyond our current boundaries, not knowing what lies ahead. When that happens, try to focus on all the reasons why you should carry on rather than gathering worries and excuses not to take the next step.<br><br>If things get too overwhelming, it is fine to pause and take things one step at a time. It is better to take things slow than to stop and turn back. @cr-journey
+Opportunities are always around but it can also be easily be seen as obstacles.<br><br>As fallible humans, it is normal to be fearful sometimes to push beyond our current boundaries, not knowing what lies ahead. When that happens, I remember a kind soul advising me to focus on all the reasons why I should carry on rather than gathering worries and excuses not to take the next step.<br><br>If things get too overwhelming, it is fine to pause and take things one step at a time. It is better to take things slow and steady than to stop and turn back. @cr-journey
 
 I don't know what 2026 will bring but I strongly believe that God has a beuatiful plan for me and you and hope is always on your side.<br><br>Indeed, each of us has the essential potential to do great things that can benefit our everyday lives. I hope that through this simple reflection, you will be motivated to pick yourself up and keep moving towards your inner desire and calling.<br><br>Wishing you all the very best in your journey.<br><br><a href="#top">Back
 to top</a> @cr-essential    
